@@ -24,17 +24,18 @@
         <div class="top-header">
             <div>
                 <header>
+                    <a href="<?php echo home_url(); ?>"><img img class="logo" src="<?php bloginfo('template_directory'); ?>/images/me-150x150.jpg"></a>
                     <nav>
-                    <?php 
-                        $defaults = array (
-                            'container'         => false,
-                            'theme_location'    => 'primary-menu'
-                        );
+                        <?php 
+                            $defaults = array (
+                                'container'         => false,
+                                'theme_location'    => 'primary-menu'
+                            );
 
-                        wp_nav_menu( $defaults);
-                        ?>
-                       
+                            wp_nav_menu( $defaults);
+                            ?>
                     </nav>
+                    
                 </header>
             </div>
         </div>

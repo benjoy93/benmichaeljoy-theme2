@@ -1,13 +1,15 @@
 <?php get_header(); ?>
 
- <div class="wrapper top-margin not-found">
-        <h1>Yikes!</h1>
-        <h2>There doesn't seem to be a page here.</h2>
-         
-
-        <h3 class="blog-content">Why not check out some of my <a href="/index.php?page_id=6">recent blog posts</a>, or just head on over to the <a href="/index.php?page_id=15">homepage</a> and try again.</h3>        
-
-</div>
-
+<div class="ie-flex-wrapper-fix">
+        <section class="page-intro">
+            <div class="content-wrapper not-found-page">
+                <h1>The page you wanted isn't here.</h1>
+                <img src="<?php bloginfo('template_directory'); ?>/images/hello_darkness.gif">
+                <div class="button">
+                <a class="more-posts-button" href="/index.php?page_id=15">Get me outta here!</a>
+                </div>
+            </div>
+        </section> 
+</div>  
 
 <?php get_footer(); ?>
