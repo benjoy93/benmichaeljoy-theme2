@@ -1,0 +1,37 @@
+
+/*=== BLOG PAGE STYLES */
+
+.blog-section {
+    margin: 0;
+    padding: 20px 15px;
+}
+
+.blog-section:last-child {
+    padding-bottom: 10px;
+}
+
+.blog-section a {
+    text-decoration: none;
+    color: $color-secondary;
+}
+
+.blog-section h3 {
+    color: $color-main;
+    text-decoration: underline;
+}
+
+.blog-section h3 {
+    font-size: 1.2em;
+}
+
+.blog-section p {
+    font-size: 0.9em;
+}
+
+.blog-hr {
+    width: 90%;
+}
+
+.blog-hr:last-child {
+    display: none;
+}

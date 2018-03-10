@@ -1,0 +1,50 @@
+
+/*=== SIDE PROJECT STYLES ===*/
+
+.side-project-section {
+    padding: 10px 0;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ie-flex-wrapper-fix-sp:nth-child(odd) {
+    background-color: $color-main;
+}
+
+.sp-img {
+    border: solid 1px $color-secondary;
+}
+
+.button {
+    text-align: center;
+}
+
+.sp-button,
+.more-posts-button {
+    display: inline-block;
+    width: 200px;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.sp-button {
+    background-color: $color-secondary;
+    color: $color-main;
+}
+
+.more-posts-button {
+    background-color: $color-main;
+    color: $color-secondary;
+}
+
+.sp-button:hover,
+.more-posts-button:hover {
+    color: white;
+}
+

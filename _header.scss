@@ -1,0 +1,95 @@
+/*=== HEADER STYLES ===*/
+
+.top-header {
+    background: #161616;
+}
+
+/*=== PAGE HEADER STYLES ===*/
+
+.homepage-intro,
+.page-intro {
+    background: $color-secondary;
+    width: 100%;
+}
+
+.homepage-intro {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+
+}
+
+.homepage-image{
+    margin: 0 auto;
+    margin-top: auto;
+}
+
+.ie-flex-wrapper-fix,
+.ie-flex-wrapper-fix-sp {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-intro,
+.not-found-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page-intro,
+.home-section, 
+.side-project-section,
+.not-found-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-intro {
+    min-height: 50vh;
+}
+
+.not-found-page{
+    min-height: 69.5vh;
+}
+
+.home-section {
+    min-height: 55vh;
+}
+
+.page-intro,
+.side-project-section {
+    text-align: center;
+}
+
+.homepage-titles {
+    padding: 20px 15px 10px 15px;
+    margin: 0 auto;
+}
+
+.page-titles,
+.latest-posts {
+    width: 90%;
+    text-align: center;
+} 
+
+.latest-posts h2 {
+    color: $color-secondary;
+}
+
+.latest-posts ul {
+    padding: 0;
+}
+
+.latest-posts li {
+    list-style: none;
+}
+
+.latest-posts li a {
+    text-decoration: none;
+    color: $color-main;
+}
+

@@ -1,0 +1,44 @@
+
+/*=== NAV STYLES ===*/
+
+header,
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding-right: 10px;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: lighter;
+}
+
+nav a:hover {
+    color: $color-main;
+}
+
+li a:focus {
+    font-weight: bold;
+}
+
+.current-menu-item a {
+    font-weight: bold;
+}
+
+.logo {
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 12px;
+    width: 50px;
+    height: 50px;
+}
