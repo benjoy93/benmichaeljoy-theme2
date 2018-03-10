@@ -1,0 +1,41 @@
+/*=== FOOTER STYLES ===*/
+
+.footer {
+    width: 100%;
+    background: #161616;
+}
+
+.footer p {
+    margin-left: 0;
+    max-width: 100%;
+    color: $color-main;
+    vertical-align: middle;
+    text-align:center;
+    padding-bottom:5px;
+}
+
+.social-section {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.fa-twitter-square,
+.fa-linkedin-square,
+.fa-github-square {
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.fa-twitter-square:hover {
+    color: $color-fb;
+}
+
+.fa-linkedin-square:hover {
+    color: $color-linkedin;
+}
+
+.fa-github-square:hover {
+    color: $color-github;
+}
